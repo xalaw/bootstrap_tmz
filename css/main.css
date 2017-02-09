@@ -2858,3 +2858,25 @@ ul {
     border-left: 0px; }
 
 /*# sourceMappingURL=main.css.map */
+
+
+@media screen and (max-width: 400px) {
+  .footer-links ul {
+    padding-left:0px;
+  }
+  .footer-links ul li {
+    display: block;
+    text-align: center;
+    border: none;
+    padding: 10px 15px;
+  }
+
+}
+
+/* extra styles that should be moved to separate css sheet */
+@media screen and (min-width: 1005px) {
+  .footer-links ul {
+  width: 100rem;
+  margin: 0 auto;
+  }
+}
